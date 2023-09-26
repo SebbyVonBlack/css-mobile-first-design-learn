@@ -1,8 +1,21 @@
 /* variables */
+:root {
+    --primary: #ffc636;
+    --secondary: #0a0b5b;
+}
 
 /* reset */
+body,p,a,ul,li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
 
-/* base styles */
+
+/* base styles (styles that won't change if size changes) */
 
 /* fonts */
 
