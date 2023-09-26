@@ -4,6 +4,32 @@
     --secondary: #0a0b5b;
 }
 
+/* fonts */
+
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url(fonts/Rubik-Regular.ttf);
+}
+h1,h2,h3,h4 {
+    color: #dddbff;
+    font-weight: normal;
+}
+h1,h3 {
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.1em;
+}
+p,a,li {
+    color: #9893d8;
+}
+.leading {
+    font-size: 1.1em;
+}
+
 /* reset */
 body,p,a,ul,li {
     margin: 0;
@@ -17,6 +43,7 @@ li {
 
 /* base styles (styles that won't change if size changes) */
 body {
+    font-family: 'Rubik Regular', sans-serif;
     background: var(--secondary);
     overflow-x: hidden;
 }
@@ -45,21 +72,23 @@ input, textarea {
     color: #f2f2f2;
 }
 
-/* fonts */
-
 /* mobile styles */
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
-
+    
 }
 
 /* laptop styles */
 @media screen and (min-width: 960px) {
-    
+    body {
+        font-size: 18px;
+    }
 }
 
 /* desktop style */
 @media screen and (min-width: 1200px) {
-    
+    body {
+        font-size: 20px;
+    }
 }
