@@ -9,7 +9,16 @@
 /* mobile styles */
 
 /* small tablet styles */
+@media screen and (min-width: 620px) {
 
-/* large tablet styles */
+}
 
 /* laptop styles */
+@media screen and (min-width: 960px) {
+    
+}
+
+/* desktop style */
+@media screen and (min-width: 1200px) {
+    
+}
